@@ -1,0 +1,19 @@
+--- /workspace/source/project/CWE338_Weak_PRNG__util_01.java
++++ /workspace/source/project/CWE338_Weak_PRNG__util_01.java
+@@ -19,15 +19,13 @@
+ 
+ import java.security.SecureRandom;
+ 
+-import java.util.Random;
+-
+ public class CWE338_Weak_PRNG__util_01 extends AbstractTestCase
+ {
+     public void bad() throws Throwable
+     {
+ 
+         /* FLAW: java.util.Random() is considered a weak PRNG */
+-        Random random = new Random();
++        SecureRandom random = new SecureRandom();
+ 
+         IO.writeLine("" + random.nextInt());
+ 

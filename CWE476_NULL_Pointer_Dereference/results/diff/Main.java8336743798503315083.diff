@@ -1,0 +1,16 @@
+--- /workspace/source/project/Main.java
++++ /workspace/source/project/Main.java
+@@ -39,6 +39,13 @@
+ 					AbstractTestCase myObject = (AbstractTestCase) myClass
+ 							.newInstance();
+ 
++					/* ********OpenRefactory Warning********
++					 Possible null pointer Dereference!
++					 Path: 
++						File: Main.java, Line: 42
++							myObject.runTest(className);
++							myObject is referenced in method invocation.
++					*/
+ 					myObject.runTest(className);
+ 
+ 				} catch (Exception ex) {

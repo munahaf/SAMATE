@@ -1,0 +1,1835 @@
+2020-01-29 15:47:22 PST 
+STARTING LOGGER
+
+2020-01-29 15:47:22 PST [SERVER]: /workspace/config
+2020-01-29 15:47:22 PST [SERVER]: Changes detected. Updating config information...
+2020-01-29 15:47:22 PST [SERVER]: OR_HOME /workspace/
+2020-01-29 15:47:22 PST [SERVER]: SOURCE /workspace/source/
+2020-01-29 15:47:22 PST [SERVER]: RESULTS /workspace/results/
+2020-01-29 15:47:22 PST [SERVER]: DIFF /workspace/results/diff/
+2020-01-29 15:47:22 PST [SERVER]: REFACTORINGS 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+2020-01-29 15:47:22 PST [SERVER]: SINGLE_EXECUTION true
+2020-01-29 15:47:22 PST [SERVER]: CONFIG_REFACTORINGS
+2020-01-29 15:47:22 PST [SERVER]: MULTI_THREAD true
+2020-01-29 15:47:22 PST [SERVER]: PRNTCG true
+2020-01-29 15:47:22 PST [SERVER]: CGPROGRESS
+2020-01-29 15:47:22 PST [SERVER]: DEBUG
+2020-01-29 15:47:22 PST [SERVER]: USE_DISK 1
+2020-01-29 15:47:22 PST [SERVER]: /bin/sh
+2020-01-29 15:47:22 PST [SERVER]: -c
+2020-01-29 15:47:22 PST [SERVER]: /workspace/configure_run.sh
+2020-01-29 15:47:22 PST [SERVER]: Configuration info successfully updated.
+2020-01-29 15:47:25 PST [SERVER]: /workspace/config
+2020-01-29 15:47:26 PST [SERVER]: Running command: pass
+2020-01-29 15:47:26 PST [SERVER]: Working directory: /workspace/source
+WARNING: Using current directory to store CVPG database
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_08.java, File 1 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_03.java, File 2 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_06.java, File 3 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_10.java, File 4 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing ServletMain.java, File 5 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_13.java, File 6 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_05.java, File 7 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_17.java, File 8 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_01.java, File 9 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_15.java, File 10 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_11.java, File 11 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing Main.java, File 12 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_04.java, File 13 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_09.java, File 14 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_07.java, File 15 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_12.java, File 16 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_02.java, File 17 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_14.java, File 18 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing CWE252_Unchecked_Return_Value__FileInputStream_16.java, File 19 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing ServletMain.java, File 20 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing Main.java, File 21 of 21
+2020-01-29 15:47:27 PST [SERVER]: Indexing complete
+-------- Initializing Call Graph --------
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_08.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_17.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_07.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_01.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_12.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_03.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_02.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_15.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_06.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_11.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_14.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_10.java
+Processing File: Main.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_16.java
+Processing File: ServletMain.java
+Processing File: ServletMain.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_04.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_13.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_09.java
+Processing File: CWE252_Unchecked_Return_Value__FileInputStream_05.java
+Processing File: Main.java
+2020-01-29 15:47:32 PST [SERVER]: Constructing Class Graph
+-------- Initializing Class Dependencies --------
+-------- Optimizing Class Dependencies --------
+processing methods 1 of 22
+processing methods 2 of 22
+processing methods 3 of 22
+processing methods 4 of 22
+processing methods 5 of 22
+processing methods 6 of 22
+processing methods 7 of 22
+processing methods 8 of 22
+processing methods 9 of 22
+processing methods 10 of 22
+processing methods 11 of 22
+processing methods 12 of 22
+processing methods 13 of 22
+processing methods 14 of 22
+processing methods 15 of 22
+processing methods 16 of 22
+processing methods 17 of 22
+processing methods 18 of 22
+processing methods 19 of 22
+processing methods 20 of 22
+processing methods 21 of 22
+processing methods 22 of 22
+2020-01-29 15:47:55 PST [SERVER]: Class Graph Construction Complete
+2020-01-29 15:47:55 PST [SERVER]: Preparing for Call Graph Construction
+-------- Processing data flow information --------
+2020-01-29 15:47:55 PST [SERVER]: Preparation Phase Complete
+2020-01-29 15:47:55 PST [SERVER]: Constructing Call Graph
+-------- Constructing an Optimized Call Graph --------
+processing methods 1 of 22
+processing methods 2 of 22
+processing methods 3 of 22
+processing methods 4 of 22
+processing methods 5 of 22
+processing methods 6 of 22
+processing methods 7 of 22
+processing methods 8 of 22
+processing methods 9 of 22
+processing methods 10 of 22
+processing methods 11 of 22
+processing methods 12 of 22
+processing methods 13 of 22
+processing methods 14 of 22
+processing methods 15 of 22
+processing methods 16 of 22
+processing methods 17 of 22
+processing methods 18 of 22
+processing methods 19 of 22
+processing methods 20 of 22
+processing methods 21 of 22
+processing methods 22 of 22
+2020-01-29 15:47:55 PST [SERVER]: Call Graph Construction Complete
+
+
+
+__________CallGraph__________
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_12.java::good::7845::67::757::7654::CWE252_Unchecked_Return_Value__FileInputStream_12::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_12.java::good1::4045::3792::757::7654::CWE252_Unchecked_Return_Value__FileInputStream_12::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_15.java::good::6649::85::733::6500::CWE252_Unchecked_Return_Value__FileInputStream_15::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_15.java::good1::2379::2125::733::6500::CWE252_Unchecked_Return_Value__FileInputStream_15::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_15.java::good2::4512::2129::733::6500::CWE252_Unchecked_Return_Value__FileInputStream_15::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_05.java::good::6579::85::760::6403::CWE252_Unchecked_Return_Value__FileInputStream_05::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_05.java::good1::2519::2110::760::6403::CWE252_Unchecked_Return_Value__FileInputStream_05::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_05.java::good2::4637::1934::760::6403::CWE252_Unchecked_Return_Value__FileInputStream_05::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_07.java::good::6537::85::765::6356::CWE252_Unchecked_Return_Value__FileInputStream_07::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_07.java::good1::2463::2119::765::6356::CWE252_Unchecked_Return_Value__FileInputStream_07::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_07.java::good2::4590::1939::765::6356::CWE252_Unchecked_Return_Value__FileInputStream_07::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_13.java::good::6353::85::783::6154::CWE252_Unchecked_Return_Value__FileInputStream_13::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_13.java::good1::2243::2146::783::6154::CWE252_Unchecked_Return_Value__FileInputStream_13::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_13.java::good2::4397::1948::783::6154::CWE252_Unchecked_Return_Value__FileInputStream_13::nonstatic
+
+caller: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::main::65::2134::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE1::2203::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE2::2326::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE3::2449::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE4::2572::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE5::2695::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE6::2818::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE7::2941::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE8::3064::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE252_Unchecked_Return_Value/Main.java::runTestCWE9::3187::119::41::3268::Main::static
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::bad::1223::1351::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::privateReturnsTrue::874::259::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::good2::4727::1943::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::privateReturnsTrue::874::259::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_04.java::good::6685::85::788::6481::CWE252_Unchecked_Return_Value__FileInputStream_04::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_04.java::good1::2569::2152::788::6481::CWE252_Unchecked_Return_Value__FileInputStream_04::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_04.java::good2::4729::1948::788::6481::CWE252_Unchecked_Return_Value__FileInputStream_04::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::good1::2582::2137::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::privateReturnsFalse::1141::74::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+
+caller: /workspace/source/project/Main.java::main::104::2134::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE1::2242::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE2::2365::2889::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE3::5258::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE4::5381::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE5::5504::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE6::5627::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE7::5750::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE8::5873::119::80::6038::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE9::5996::119::80::6038::Main::static
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_09.java::good::6329::85::778::6135::CWE252_Unchecked_Return_Value__FileInputStream_09::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_09.java::good1::2233::2137::778::6135::CWE252_Unchecked_Return_Value__FileInputStream_09::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_09.java::good2::4378::1943::778::6135::CWE252_Unchecked_Return_Value__FileInputStream_09::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_02.java::good::6217::85::746::6055::CWE252_Unchecked_Return_Value__FileInputStream_02::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_02.java::good1::2185::2089::746::6055::CWE252_Unchecked_Return_Value__FileInputStream_02::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_02.java::good2::4282::1927::746::6055::CWE252_Unchecked_Return_Value__FileInputStream_02::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_01.java::good::2000::67::718::3511::CWE252_Unchecked_Return_Value__FileInputStream_01::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_01.java::good1::2075::1655::718::3511::CWE252_Unchecked_Return_Value__FileInputStream_01::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_06.java::good::6620::85::793::6411::CWE252_Unchecked_Return_Value__FileInputStream_06::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_06.java::good1::2490::2161::793::6411::CWE252_Unchecked_Return_Value__FileInputStream_06::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_06.java::good2::4659::1953::793::6411::CWE252_Unchecked_Return_Value__FileInputStream_06::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_11.java::good::6343::85::782::6145::CWE252_Unchecked_Return_Value__FileInputStream_11::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_11.java::good1::2239::2143::782::6145::CWE252_Unchecked_Return_Value__FileInputStream_11::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_11.java::good2::4390::1945::782::6145::CWE252_Unchecked_Return_Value__FileInputStream_11::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::good::6678::85::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::good1::2582::2137::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::good2::4727::1943::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_03.java::good::6220::85::745::6059::CWE252_Unchecked_Return_Value__FileInputStream_03::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_03.java::good1::2186::2089::745::6059::CWE252_Unchecked_Return_Value__FileInputStream_03::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_03.java::good2::4283::1929::745::6059::CWE252_Unchecked_Return_Value__FileInputStream_03::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_16.java::good::4159::67::735::3990::CWE252_Unchecked_Return_Value__FileInputStream_16::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_16.java::good1::2196::1955::735::3990::CWE252_Unchecked_Return_Value__FileInputStream_16::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_17.java::good::4143::67::733::3976::CWE252_Unchecked_Return_Value__FileInputStream_17::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_17.java::good1::2189::1946::733::3976::CWE252_Unchecked_Return_Value__FileInputStream_17::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_14.java::good::6304::85::769::6119::CWE252_Unchecked_Return_Value__FileInputStream_14::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_14.java::good1::2222::2125::769::6119::CWE252_Unchecked_Return_Value__FileInputStream_14::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_14.java::good2::4355::1941::769::6119::CWE252_Unchecked_Return_Value__FileInputStream_14::nonstatic
+
+caller: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_10.java::good::6280::85::764::6100::CWE252_Unchecked_Return_Value__FileInputStream_10::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_10.java::good1::2212::2116::764::6100::CWE252_Unchecked_Return_Value__FileInputStream_10::nonstatic
+	callee: /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_10.java::good2::4336::1936::764::6100::CWE252_Unchecked_Return_Value__FileInputStream_10::nonstatic
+
+
+After CTA old: 51 new: 51
+CTA call graph size: 51
+execution time: 27.0s
+2020-01-29 15:47:55 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_16::bad, Function 1 of 75
+2020-01-29 15:47:55 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::bad]
+2020-01-29 15:47:55 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 770102699a1103be3526d1d1a3c151deffdddb17 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_13::good, Function 2 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 6796ab7fd82c3324fb6604e98f6334ebc075b6f8 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for e7b149d27dbd739943a00be93c03bf59b54f8939 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for fd875fb05af45eece6a26fc154289e646ccbf17c on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function Main::main, Function 3 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /Main.java::Main::runTestCWE1, Single CG Node: /Main.java::Main::runTestCWE2, Single CG Node: /Main.java::Main::runTestCWE3, Single CG Node: /Main.java::Main::runTestCWE4, Single CG Node: /Main.java::Main::runTestCWE5, Single CG Node: /Main.java::Main::runTestCWE6, Single CG Node: /Main.java::Main::runTestCWE7, Single CG Node: /Main.java::Main::runTestCWE8, Single CG Node: /Main.java::Main::runTestCWE9, Single CG Node: /Main.java::Main::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 085accabcf79679c2a52c040e10b75bd06cebd7a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 9da9e10e9d22dffc9805cf5c97d0e2b9cfe26137 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE3
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0d84d043f6dc0ec36198db6e846efd42a6f4f9bb on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE4
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 16a16f85d918b76c19dc488e92e6f3495a403a6e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE5
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for dc36df38064dd405007674cf24c56a385731b2df on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE6
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for b6ef7cf9514d01d9fcd8b703039b8201a0c8e5e5 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE7
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for f7c89760bf6930f78e05703ab50b1e1a75c07825 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE8
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 2888da6382bafc978608ce8d4708f6c7812f703f on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE9
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 4e0fbc47fc40df55e3c30a940c851522e8be2fff on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::main
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.ASTNodeUtilities.getTokenRangeOfBinding(ASTNodeUtilities.java:836)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.getLocation(SummaryGraph.java:639)
+	at com.openrefactory.core.java.pointeranalysis.PointsToLocationCollector.visit(PointsToLocationCollector.java:584)
+	at org.eclipse.jdt.core.dom.SimpleName.accept0(SimpleName.java:198)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.getValueLocations(PointsTo.java:59)
+	at com.openrefactory.core.java.pointeranalysis.PointsToLocationCollector.visit(PointsToLocationCollector.java:521)
+	at org.eclipse.jdt.core.dom.QualifiedName.accept0(QualifiedName.java:159)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.getValueLocations(PointsTo.java:59)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processFromMethodSummary(SummaryGraph.java:1633)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:325)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.ProperInterval.processPointsToGraph(ProperInterval.java:126)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.ASTNodeUtilities.getTokenRangeOfBinding(ASTNodeUtilities.java:824)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.getLocation(SummaryGraph.java:639)
+	at com.openrefactory.core.java.pointeranalysis.PointsToLocationCollector.visit(PointsToLocationCollector.java:549)
+	at org.eclipse.jdt.core.dom.QualifiedName.accept0(QualifiedName.java:159)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.getValueLocations(PointsTo.java:59)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processFromMethodSummary(SummaryGraph.java:1633)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:325)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.ProperInterval.processPointsToGraph(ProperInterval.java:126)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Error creating summary for main
+2020-01-29 15:47:56 PST [SERVER]: Error creating summary for main
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE5, Function 4 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE5]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE5
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 61b3ebdca2434522e54aa532498575e6da82d934 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_11::good, Function 5 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a3a0c7aaf8a15b15455860d477a20c4872d56bc2 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for ca84fbb595c4172f19329ed2e01dd945fa8104e4 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 377543b1a178dc3935fbf502c9eb178ea9caed59 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE7, Function 6 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE7]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE7
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 9b80fa97e6621af8c603ae72f1ad56ce3a1992f5 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_09::bad, Function 7 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 284e17f268555f1e22a50e88baa9ba68c4f6b047 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE9, Function 8 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE9]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE9
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for afc767f6ce506891d46995ca1f0d73cb43ffaebc on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_01::bad, Function 9 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for fdb9ea375b7a84b50385ecad5705be94de928e6a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_13::bad, Function 10 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 4d86323869dfe76cd92c34569a925719326299eb on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_02::bad, Function 11 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for e10b5dd26870b26560a70861450bf8acffd82e67 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE3, Function 12 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE3]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE3
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 06d9d3eee3c6c9ab11348d426718560825b5d5dc on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_09::good, Function 13 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 06eb20abe5f0b922f31eb24f71791eadc5770a9f on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 6c4df5e93eb99472c96a6c653d7250c1f1fd4801 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a43db52a6ffcff4809745a03507b1e7e733878ba on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE1, Function 14 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE1]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 1aea8d072c9610ff5c101aa3f76a4e17826c6ec6 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_10::bad, Function 15 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 85a15706bbacba9da453e51448fbb33aa0c1eaf4 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE4, Function 16 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE4]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE4
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0e197448d1481695135465d88d587e1ed56f8a0e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_08::main, Function 17 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a91ad82610c6bbfe14344dba037e4ae3f1689a40 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_15::bad, Function 18 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for f1d7c4d77642e9d5e816e80bc49794a00d81f1f7 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_07::main, Function 19 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 125479ab58b793f4eb959d4a58f28d903a5bae97 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE1, Function 20 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE1]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 53a5106584d89261b4cb1a8a90994066275fed99 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_07::good, Function 21 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 199b2a8cda9aeacb4eabec8fdc42afcf403c42e2 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 6c6faae3c9ce04b3dc1182a0b0680ee761d0eec8 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for b0914ddbbe526c8be7cd0db87b43a767b8d7f432 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_11::bad, Function 22 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c8e1bf117f50dbc013ba67679e57df4a1efbeaa1 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doPost, Function 23 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doPost]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doPost
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c716d59ef1864d681dc2cdd97e7c9b066f0ad0ed on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_04::good, Function 24 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 63cdafba0bb825a93b86a438c58d05d4a9b5c4e3 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 7358164640ebc63b64c6b25dde9fd095160aee67 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a3d5a062380a57ff8a6624f08a35b1b43236c080 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE2, Function 25 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE2]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for b8cd1bf1dacb7643bfff3a92dcb5fed4f5a54e0e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_17::bad, Function 26 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 1d2510c983981cda2d648173f8888c57e3e98398 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_03::good, Function 27 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 1dc4d9e231f7325fbb65ce4078c971c471aeb9f4 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for f40ef9077b82e3f8f033c6652796a7266cd78d45 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for f4b5e40e8053a17aae37cdb7b08833ee1b4051d5 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_17::good, Function 28 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for febfadb6af3f0d86dbae4c75ea5f7285a1c05da1 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 5d6675d689adea2ed60f2acc9b12116762966d59 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_14::good, Function 29 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a1b1de9721ae355db69f6bbf45631625e61f2348 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for ab4f13ea14ad1232f6368d95fe0ab4d727a324da on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for dfc825bad64aacd0616d64bde23bafe46354862a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_02::main, Function 30 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 33577a7409ca9d1ff42a44dbde89ac1b932b1e92 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_15::good, Function 31 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 82953b900c76d4abbb808bfb9297ec4b34d4167f on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c1c1d6ecc53ec368fa1e6863e8add3c8412ff379 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 21fd116cb56a6e681aeaba30a76d29b97755405d on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_10::main, Function 32 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 3f049574672372b4202f7f91a970bb72d87df7fb on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_06::main, Function 33 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for d3299d7f6ea44c63800de61a0e14bb51bb6ba998 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE5, Function 34 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE5]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE5
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 6f8949aaf3a8ae60df3455e10a81fe7ae926e703 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_06::good, Function 35 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 455d1f580d31e1e774233e90485d417f9e84334f on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0fe485b8c48bc4d02998426daf65ed3cb4ca05c3 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for bc34f3bd3171169d47946a6cc80a523147412d6b on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE4, Function 36 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE4]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE4
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for fbef50fa0f658ade3979b2b9fc4652a4ef911cf0 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_04::bad, Function 37 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 4a8e5ce7eb7d6d242e578213cb8b6e23dc20b773 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_16::good, Function 38 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 5fd871d225a133d3fe8e3e45140f240b4dc4934a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 94d5190db81b9bdef92aa4e8e02c5c7979e7b839 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_10::good, Function 39 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 89a1aca793bf232f1653379a16940d718a2201ea on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for da4ff3d2b27cb9e45fd24b1d88de18598ccf222a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_10.java::CWE252_Unchecked_Return_Value__FileInputStream_10::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 46ace4a799da2dc4dc5df9c2d1f15dc640ab127c on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_06::bad, Function 40 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_06.java::CWE252_Unchecked_Return_Value__FileInputStream_06::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for adc45b547c527de9a94b8f00c85e6813ed6420e5 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_01::good, Function 41 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c350685d720d800d3e3af25f53ef47fc225fcaff on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 4ab0c2861ca91ff9a708bbe310591f64c4762feb on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_13::main, Function 42 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_13.java::CWE252_Unchecked_Return_Value__FileInputStream_13::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 905fe37f72205de6b783de861047a803fdb5cee2 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_05::bad, Function 43 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 3b5e6eb9a4f7b09ae8aa41ae5d497a218df0aa89 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_04::main, Function 44 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_04.java::CWE252_Unchecked_Return_Value__FileInputStream_04::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for dd89895e6794db8c83eac0f3dd08c4cc153b6b7e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_05::main, Function 45 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for ee0124b0e1edb1b8901e665f0818e3a968bdd87c on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_03::bad, Function 46 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for e92a3976b38740e3a373f1b33e7d9144c55677ee on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_09::main, Function 47 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_09.java::CWE252_Unchecked_Return_Value__FileInputStream_09::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0e40bd9947bd52379e3dbd72a7f2c9911a0a91b2 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_16::main, Function 48 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_16.java::CWE252_Unchecked_Return_Value__FileInputStream_16::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for b21b3427c4b1d9ecad86293507808f99b07c3e94 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGet, Function 49 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGet]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGet
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 87b0ba7169c355410b61a8b174c61240e9dcc6ed on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE2, Function 50 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE2]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 83fa81e599e0efbf15fe62e13e46cec9f9cdaf1a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_05::good, Function 51 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a9f608d02ca7a82fc3ff883504d707fecd953a15 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 68dac089c4997953f5b8766097ce36062fa9a176 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_05.java::CWE252_Unchecked_Return_Value__FileInputStream_05::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for fe1e7ff8e1e6e62491a4a7dd5078ed34372e5dda on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE3, Function 52 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE3]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE3
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for ef8a62fe5191c9001e7895c3b940547f5d96e8bd on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_01::main, Function 53 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_01.java::CWE252_Unchecked_Return_Value__FileInputStream_01::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for a12378b1337b310d84b7d5efdf00ca43101e9fca on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE8, Function 54 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE8]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE8
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for d3bb9ecfc2f90a6aa3fe802d8a8c1c0a414f61df on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_14::bad, Function 55 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 74622e0c9ae0c8c4520c1f757175490eca931c96 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE6, Function 56 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE6]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE6
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 4429bb02c5434901c9c56e435a4693060a02f6d2 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE6, Function 57 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE6]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE6
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 4590be80bc40be2dcd5e040fe597e58e41278a5e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE8, Function 58 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE8]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE8
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 9140eca28e8fc73e5fd1986e1a1e8543cc504897 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doPost, Function 59 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doPost]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doPost
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 2926e46e74a2933da6207e91be5349b2c25e5d3d on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGet, Function 60 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGet]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGet
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 006f3430c38215f2d0bf279a04cedb8b3123d7dd on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_02::good, Function 61 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0ffdcdcee9eab96e84cbd177cb6f09ad475be707 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0781ba212b9d19f5483aa8da9bdd2eda6ccb46de on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_02.java::CWE252_Unchecked_Return_Value__FileInputStream_02::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 30d931f98bcac200254c3ac48b7991dcd41c7f77 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_12::main, Function 62 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for cb75a8a600cdf29c240107114175eb354721d47a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_08::good, Function 63 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::privateReturnsFalse, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::privateReturnsTrue, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::good2, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::privateReturnsFalse
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 57f7ae4945c24119bbe66e7b2360b4f6d7300607 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 126b881397564ad1e2befe9753e6bbe1f1b15eaa on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::privateReturnsTrue
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c97ff351f4f8f89d59bb793d6e77eb1ce311c092 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::good2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for fe16c5a79c0f10d85aa3491f1d6b57c8f1908c44 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for e61ccfca53296cb4168e2c67a555e079a6dd8f04 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_07::bad, Function 64 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_07.java::CWE252_Unchecked_Return_Value__FileInputStream_07::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c3b85561ed29486b8ffdda1a48ce65e75e3fce2f on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_12::bad, Function 65 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0d2f078b56a54b9fc40e065032cd883cbecffcc1 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_12::good, Function 66 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::good1, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::good]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::good1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for fc4f3fb46ed2a9f9b3c296c03a1f0e7fafc474dc on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_12.java::CWE252_Unchecked_Return_Value__FileInputStream_12::good
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 1360c4d799a7940040923bbc9a5e81ab532f6790 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_11::main, Function 67 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_11.java::CWE252_Unchecked_Return_Value__FileInputStream_11::main
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 7065eec21d5cf1fcf44c5beaad60d527059d7278 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_08::bad, Function 68 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::privateReturnsTrue, Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::bad]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::privateReturnsTrue
+2020-01-29 15:47:56 PST [SERVER]: Loaded summary for /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java::privateReturnsTrue::874::259::778::6484::CWE252_Unchecked_Return_Value__FileInputStream_08::nonstatic from disk
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_08.java::CWE252_Unchecked_Return_Value__FileInputStream_08::bad
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for e8c50af45692c7bbfe35f84dde4a1ae40008686b on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function Main::main, Function 69 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /Main.java::Main::runTestCWE1, Single CG Node: /Main.java::Main::runTestCWE2, Single CG Node: /Main.java::Main::runTestCWE3, Single CG Node: /Main.java::Main::runTestCWE4, Single CG Node: /Main.java::Main::runTestCWE5, Single CG Node: /Main.java::Main::runTestCWE6, Single CG Node: /Main.java::Main::runTestCWE7, Single CG Node: /Main.java::Main::runTestCWE8, Single CG Node: /Main.java::Main::runTestCWE9, Single CG Node: /Main.java::Main::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE1
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c9276f171bca59f1d4798cf0ad91d365d93b4e4a on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE2
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 553bb74670784b09a5a69a8b231cc1f8769d7b22 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE3
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 66d0eacc961ad9465b51872a7ccd3f5ecb888702 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE4
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for e3ed530fea0abb0510c37365f7b644f44fb6f19e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE5
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 9447a8ba2d8142ccd7af0eac311b098135e020f6 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE6
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 0abd091518c11a0c1367b63ae1e17053f51dad67 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE7
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for c7f39693e17590ee4263bf9db6cc91b7e338c3f8 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE8
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 01bc4427bb1c3d7e0903271f86e177c115c6cc9e on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE9
+2020-01-29 15:47:56 PST [SERVER]: First summary entry for 3fefebb09805ad375d7b1377d823130d57a9dab2 on disk.
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::main
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.ASTNodeUtilities.getTokenRangeOfBinding(ASTNodeUtilities.java:836)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.getLocation(SummaryGraph.java:639)
+	at com.openrefactory.core.java.pointeranalysis.PointsToLocationCollector.visit(PointsToLocationCollector.java:584)
+	at org.eclipse.jdt.core.dom.SimpleName.accept0(SimpleName.java:198)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.getValueLocations(PointsTo.java:59)
+	at com.openrefactory.core.java.pointeranalysis.PointsToLocationCollector.visit(PointsToLocationCollector.java:521)
+	at org.eclipse.jdt.core.dom.QualifiedName.accept0(QualifiedName.java:159)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.getValueLocations(PointsTo.java:59)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processFromMethodSummary(SummaryGraph.java:1633)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:325)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.ProperInterval.processPointsToGraph(ProperInterval.java:126)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.ASTNodeUtilities.getTokenRangeOfBinding(ASTNodeUtilities.java:824)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.getLocation(SummaryGraph.java:639)
+	at com.openrefactory.core.java.pointeranalysis.PointsToLocationCollector.visit(PointsToLocationCollector.java:549)
+	at org.eclipse.jdt.core.dom.QualifiedName.accept0(QualifiedName.java:159)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.getValueLocations(PointsTo.java:59)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processFromMethodSummary(SummaryGraph.java:1633)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:325)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.ProperInterval.processPointsToGraph(ProperInterval.java:126)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Error creating summary for main
+2020-01-29 15:47:56 PST [SERVER]: Error creating summary for main
+2020-01-29 15:47:56 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_15::main, Function 70 of 75
+2020-01-29 15:47:56 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::main]
+2020-01-29 15:47:56 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_15.java::CWE252_Unchecked_Return_Value__FileInputStream_15::main
+2020-01-29 15:47:57 PST [SERVER]: First summary entry for 67a6a5f383417f618cdce70d03dd20b509b7ae7d on disk.
+2020-01-29 15:47:57 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_17::main, Function 71 of 75
+2020-01-29 15:47:57 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::main]
+2020-01-29 15:47:57 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_17.java::CWE252_Unchecked_Return_Value__FileInputStream_17::main
+2020-01-29 15:47:57 PST [SERVER]: First summary entry for e44e30c741d49d1cd4b2997265d99b33db239c38 on disk.
+2020-01-29 15:47:57 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_14::main, Function 72 of 75
+2020-01-29 15:47:57 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::main]
+2020-01-29 15:47:57 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_14.java::CWE252_Unchecked_Return_Value__FileInputStream_14::main
+2020-01-29 15:47:57 PST [SERVER]: First summary entry for 151c98e8ba8210dac8df74118a5cc387409a82f0 on disk.
+2020-01-29 15:47:57 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE9, Function 73 of 75
+2020-01-29 15:47:57 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE9]
+2020-01-29 15:47:57 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE9
+2020-01-29 15:47:57 PST [SERVER]: First summary entry for 1c0fcf31df24085a9bdb8460564866d681a90ea7 on disk.
+2020-01-29 15:47:57 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE7, Function 74 of 75
+2020-01-29 15:47:57 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE7]
+2020-01-29 15:47:57 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE7
+2020-01-29 15:47:57 PST [SERVER]: First summary entry for 02986597b8d3eae94ae6e3bb4b3edb429b8eb258 on disk.
+2020-01-29 15:47:57 PST [SERVER]: Processing Points To summary for the root function CWE252_Unchecked_Return_Value__FileInputStream_03::main, Function 75 of 75
+2020-01-29 15:47:57 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::main]
+2020-01-29 15:47:57 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE252_Unchecked_Return_Value__FileInputStream_03.java::CWE252_Unchecked_Return_Value__FileInputStream_03::main
+2020-01-29 15:47:57 PST [SERVER]: First summary entry for 50454b377b77f3aa49e737cea338bc0478701766 on disk.
+2020-01-29 15:47:57 PST [SERVER]: Points-to-analysis time: 1.0s
+2020-01-29 15:47:57 PST [SERVER]: Finished calculating call graph and points to information...
+2020-01-29 15:47:57 PST [SERVER]: Running configuration related fixers...
+2020-01-29 15:47:57 PST [SERVER]: Finished running configuration related fixers...
+2020-01-29 15:47:57 PST [SERVER]: Running Fixers...
+2020-01-29 15:47:57 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_08.java. File 1 of 21
+2020-01-29 15:47:57 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:57 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_03.java. File 2 of 21
+2020-01-29 15:47:57 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:57 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_06.java. File 3 of 21
+2020-01-29 15:47:57 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:57 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:57 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:58 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_10.java. File 4 of 21
+2020-01-29 15:47:58 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:58 PST [SERVER]: Analyzing ServletMain.java. File 5 of 21
+2020-01-29 15:47:58 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:58 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_13.java. File 6 of 21
+2020-01-29 15:47:58 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:58 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:58 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:59 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_05.java. File 7 of 21
+2020-01-29 15:47:59 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:59 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_17.java. File 8 of 21
+2020-01-29 15:47:59 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:59 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_01.java. File 9 of 21
+2020-01-29 15:47:59 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:47:59 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_15.java. File 10 of 21
+2020-01-29 15:47:59 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:47:59 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:47:59 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:00 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_11.java. File 11 of 21
+2020-01-29 15:48:00 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:00 PST [SERVER]: Analyzing Main.java. File 12 of 21
+2020-01-29 15:48:00 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:00 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_04.java. File 13 of 21
+2020-01-29 15:48:00 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:00 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:00 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:00 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_09.java. File 14 of 21
+2020-01-29 15:48:00 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:01 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_07.java. File 15 of 21
+2020-01-29 15:48:01 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:01 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_12.java. File 16 of 21
+2020-01-29 15:48:01 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:01 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_02.java. File 17 of 21
+2020-01-29 15:48:01 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:01 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:01 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:02 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_14.java. File 18 of 21
+2020-01-29 15:48:02 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:02 PST [SERVER]: Analyzing CWE252_Unchecked_Return_Value__FileInputStream_16.java. File 19 of 21
+2020-01-29 15:48:02 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:02 PST [SERVER]: Analyzing ServletMain.java. File 20 of 21
+2020-01-29 15:48:02 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:02 PST [SERVER]: Analyzing Main.java. File 21 of 21
+2020-01-29 15:48:02 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning GPPRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed GPPRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning AMBRefactoring...
+2020-01-29 15:48:02 PST [SERVER]: Completed AMBRefactoring.
+2020-01-29 15:48:02 PST [SERVER]: Beginning CSMRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed CSMRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning LUORefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed LUORefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning RRGRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed RRGRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning RUSRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed RUSRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning SPCRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed SPCRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning CRRRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed CRRRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning AQSRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed AQSRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning RMCRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed RMCRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning RSMFRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed RSMFRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning BRVRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed BRVRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning MDSRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed MDSRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning UPRMRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed UPRMRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning PITCRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed PITCRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning USARefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed USARefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning RCSCRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed RCSCRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning UPDIRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed UPDIRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning PPESRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed PPESRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning ACCRRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed ACCRRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning ADPRRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed ADPRRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning ACPLRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed ACPLRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: Beginning REWIRefactoring...
+2020-01-29 15:48:03 PST [SERVER]: Completed REWIRefactoring.
+2020-01-29 15:48:03 PST [SERVER]: No new Fixes. Total: 0
+2020-01-29 15:48:03 PST [SERVER]: iCR Fixing complete
+2020-01-29 15:48:03 PST [SERVER]: Shutting down daemon...
+2020-01-29 15:48:03 PST [SERVER]: Server closed: true

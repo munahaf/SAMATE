@@ -1,0 +1,71 @@
+2020-01-20 14:19:27 PST 
+STARTING LOGGER
+
+2020-01-20 14:19:27 PST [SERVER]: /workspace/config
+2020-01-20 14:19:27 PST [SERVER]: Changes detected. Updating config information...
+2020-01-20 14:19:27 PST [SERVER]: OR_HOME /workspace/
+2020-01-20 14:19:27 PST [SERVER]: SOURCE /workspace/source/
+2020-01-20 14:19:27 PST [SERVER]: RESULTS /workspace/results/
+2020-01-20 14:19:27 PST [SERVER]: DIFF /workspace/results/diff/
+2020-01-20 14:19:27 PST [SERVER]: REFACTORINGS 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+2020-01-20 14:19:27 PST [SERVER]: SINGLE_EXECUTION true
+2020-01-20 14:19:27 PST [SERVER]: EXPRESS
+2020-01-20 14:19:27 PST [SERVER]: CONFIG_REFACTORINGS
+2020-01-20 14:19:27 PST [SERVER]: USE_DISK 1
+2020-01-20 14:19:27 PST [SERVER]: /bin/sh
+2020-01-20 14:19:27 PST [SERVER]: -c
+2020-01-20 14:19:27 PST [SERVER]: /workspace/configure_run.sh
+2020-01-20 14:19:27 PST [SERVER]: Configuration info successfully updated.
+2020-01-20 14:19:29 PST [SERVER]: /workspace/config
+2020-01-20 14:19:29 PST [SERVER]: Running command: pass
+2020-01-20 14:19:29 PST [SERVER]: Working directory: /workspace/source
+WARNING: Using current directory to store CVPG database
+2020-01-20 14:19:30 PST [SERVER]: Indexing One_Way_Hash__MD2_01.java, File 1 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing One_Way_Hash__SHAI_01.java, File 2 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing One_Way_Hash__MD5_01.java, File 3 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing ServletMain.java, File 4 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing Main.java, File 5 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing Main.java, File 6 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing One_Way_Hash__SHAI_01.java, File 7 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing One_Way_Hash__MD5_01.java, File 8 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing ServletMain.java, File 9 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing One_Way_Hash__MD2_01.java, File 10 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing Main.java, File 11 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing ServletMain.java, File 12 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing Main.java, File 13 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing ServletMain.java, File 14 of 14
+2020-01-20 14:19:30 PST [SERVER]: Indexing complete
+2020-01-20 14:19:31 PST [SERVER]: Running configuration related fixers...
+2020-01-20 14:19:31 PST [SERVER]: Finished running configuration related fixers...
+2020-01-20 14:19:31 PST [SERVER]: Running Fixers...
+2020-01-20 14:19:31 PST [SERVER]: Analyzing One_Way_Hash__MD2_01.java. File 1 of 14
+2020-01-20 14:19:31 PST [SERVER]: Added 1 Fixes. Total: 1
+2020-01-20 14:19:31 PST [SERVER]: Analyzing One_Way_Hash__SHAI_01.java. File 2 of 14
+2020-01-20 14:19:31 PST [SERVER]: No new Fixes. Total: 1
+2020-01-20 14:19:31 PST [SERVER]: Analyzing One_Way_Hash__MD5_01.java. File 3 of 14
+2020-01-20 14:19:31 PST [SERVER]: Added 1 Fixes. Total: 2
+2020-01-20 14:19:31 PST [SERVER]: Analyzing ServletMain.java. File 4 of 14
+2020-01-20 14:19:32 PST [SERVER]: No new Fixes. Total: 2
+2020-01-20 14:19:32 PST [SERVER]: Analyzing Main.java. File 5 of 14
+2020-01-20 14:19:34 PST [SERVER]: No new Fixes. Total: 2
+2020-01-20 14:19:34 PST [SERVER]: Analyzing Main.java. File 6 of 14
+2020-01-20 14:19:35 PST [SERVER]: No new Fixes. Total: 2
+2020-01-20 14:19:35 PST [SERVER]: Analyzing One_Way_Hash__SHAI_01.java. File 7 of 14
+2020-01-20 14:19:35 PST [SERVER]: No new Fixes. Total: 2
+2020-01-20 14:19:35 PST [SERVER]: Analyzing One_Way_Hash__MD5_01.java. File 8 of 14
+2020-01-20 14:19:35 PST [SERVER]: Added 1 Fixes. Total: 3
+2020-01-20 14:19:35 PST [SERVER]: Analyzing ServletMain.java. File 9 of 14
+2020-01-20 14:19:36 PST [SERVER]: No new Fixes. Total: 3
+2020-01-20 14:19:36 PST [SERVER]: Analyzing One_Way_Hash__MD2_01.java. File 10 of 14
+2020-01-20 14:19:36 PST [SERVER]: Added 1 Fixes. Total: 4
+2020-01-20 14:19:36 PST [SERVER]: Analyzing Main.java. File 11 of 14
+2020-01-20 14:19:36 PST [SERVER]: No new Fixes. Total: 4
+2020-01-20 14:19:36 PST [SERVER]: Analyzing ServletMain.java. File 12 of 14
+2020-01-20 14:19:37 PST [SERVER]: No new Fixes. Total: 4
+2020-01-20 14:19:37 PST [SERVER]: Analyzing Main.java. File 13 of 14
+2020-01-20 14:19:37 PST [SERVER]: No new Fixes. Total: 4
+2020-01-20 14:19:37 PST [SERVER]: Analyzing ServletMain.java. File 14 of 14
+2020-01-20 14:19:38 PST [SERVER]: No new Fixes. Total: 4
+2020-01-20 14:19:38 PST [SERVER]: iCR Fixing complete
+2020-01-20 14:19:38 PST [SERVER]: Shutting down daemon...
+2020-01-20 14:19:38 PST [SERVER]: Server closed: true

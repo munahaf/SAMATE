@@ -1,0 +1,11 @@
+--- /workspace/source/project/CWE327_Use_Broken_Crypto__DES_16.java
++++ /workspace/source/project/CWE327_Use_Broken_Crypto__DES_16.java
+@@ -29,7 +29,7 @@
+         while(true)
+         {
+             final String CIPHER_INPUT = "ABCDEFG123456";
+-            KeyGenerator keyGenerator = KeyGenerator.getInstance("DES");
++            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+             /* Perform initialization of KeyGenerator */
+             keyGenerator.init(56);
+             SecretKey secretKey = keyGenerator.generateKey();

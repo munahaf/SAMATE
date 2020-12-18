@@ -1,0 +1,11 @@
+--- /workspace/source/project/CWE327_Use_Broken_Crypto__3DES_02.java
++++ /workspace/source/project/CWE327_Use_Broken_Crypto__3DES_02.java
+@@ -83,7 +83,7 @@
+         if (true)
+         {
+             final String CIPHER_INPUT = "ABCDEFG123456";
+-            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
++            KeyGenerator keyGenerator = KeyGenerator.getInstance("HmacSHA256");
+             /* Perform initialization of KeyGenerator */
+             keyGenerator.init(128);
+             SecretKey secretKey = keyGenerator.generateKey();

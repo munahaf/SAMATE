@@ -1,0 +1,11 @@
+--- /workspace/source/project/CWE327_Use_Broken_Crypto__3DES_04.java
++++ /workspace/source/project/CWE327_Use_Broken_Crypto__3DES_04.java
+@@ -42,7 +42,7 @@
+             SecretKey secretKey = keyGenerator.generateKey();
+             byte[] byteKey = secretKey.getEncoded();
+             /* FLAW: Use a weak crypto algorithm, 3DES */
+-            SecretKeySpec secretKeySpec = new SecretKeySpec(byteKey, "DESede");
++            SecretKeySpec secretKeySpec = new SecretKeySpec(byteKey, "AES");
+             Cipher tripleDesCipher = Cipher.getInstance("DESede");
+             tripleDesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
+             byte[] encrypted = tripleDesCipher.doFinal(CIPHER_INPUT.getBytes("UTF-8"));

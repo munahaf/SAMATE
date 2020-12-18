@@ -1,0 +1,11 @@
+--- /workspace/source/project/CWE327_Use_Broken_Crypto__3DES_12.java
++++ /workspace/source/project/CWE327_Use_Broken_Crypto__3DES_12.java
+@@ -29,7 +29,7 @@
+         if (IO.staticReturnsTrueOrFalse())
+         {
+             final String CIPHER_INPUT = "ABCDEFG123456";
+-            KeyGenerator keyGenerator = KeyGenerator.getInstance("DESede");
++            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+             /* Perform initialization of KeyGenerator */
+             keyGenerator.init(112);
+             SecretKey secretKey = keyGenerator.generateKey();

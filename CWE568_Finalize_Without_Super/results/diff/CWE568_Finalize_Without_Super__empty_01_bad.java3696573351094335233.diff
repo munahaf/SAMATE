@@ -1,0 +1,13 @@
+--- /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_bad.java
++++ /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_bad.java
+@@ -53,6 +53,10 @@
+     { 
+         protected void finalize() 
+         {
++			/* ********OpenRefactory Warning********
++			 Overriding the finalize method is problematic. Avoid if possible
++			*/
++			super.finalize();
+             /* FLAW: Empty finalize method - should have called super.finalize() */
+         }
+     }

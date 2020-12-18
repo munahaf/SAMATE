@@ -1,0 +1,852 @@
+2020-02-03 16:24:10 PST 
+STARTING LOGGER
+
+2020-02-03 16:24:10 PST [SERVER]: /workspace/config
+2020-02-03 16:24:10 PST [SERVER]: Changes detected. Updating config information...
+2020-02-03 16:24:10 PST [SERVER]: OR_HOME /workspace/
+2020-02-03 16:24:10 PST [SERVER]: SOURCE /workspace/source/
+2020-02-03 16:24:10 PST [SERVER]: RESULTS /workspace/results/
+2020-02-03 16:24:10 PST [SERVER]: DIFF /workspace/results/diff/
+2020-02-03 16:24:10 PST [SERVER]: REFACTORINGS 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
+2020-02-03 16:24:10 PST [SERVER]: SINGLE_EXECUTION true
+2020-02-03 16:24:10 PST [SERVER]: CONFIG_REFACTORINGS
+2020-02-03 16:24:10 PST [SERVER]: MULTI_THREAD true
+2020-02-03 16:24:10 PST [SERVER]: PRNTCG true
+2020-02-03 16:24:10 PST [SERVER]: CGPROGRESS
+2020-02-03 16:24:10 PST [SERVER]: DEBUG
+2020-02-03 16:24:10 PST [SERVER]: USE_DISK 1
+2020-02-03 16:24:10 PST [SERVER]: 
+2020-02-03 16:24:10 PST [SERVER]: 
+2020-02-03 16:24:10 PST [SERVER]: /bin/sh
+2020-02-03 16:24:10 PST [SERVER]: -c
+2020-02-03 16:24:10 PST [SERVER]: /workspace/configure_run.sh
+2020-02-03 16:24:10 PST [SERVER]: Configuration info successfully updated.
+2020-02-03 16:24:11 PST [SERVER]: /workspace/config
+2020-02-03 16:24:11 PST [SERVER]: Running command: pass
+2020-02-03 16:24:11 PST [SERVER]: Working directory: /workspace/source
+WARNING: Using current directory to store CVPG database
+2020-02-03 16:24:12 PST [SERVER]: Indexing Main.java, File 1 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing ServletMain.java, File 2 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing CWE568_Finalize_Without_Super__from_console_01_good1.java, File 3 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing CWE568_Finalize_Without_Super__empty_01_bad.java, File 4 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing CWE568_Finalize_Without_Super__empty_01_good1.java, File 5 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing CWE568_Finalize_Without_Super__from_console_01_bad.java, File 6 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing Main.java, File 7 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing ServletMain.java, File 8 of 8
+2020-02-03 16:24:12 PST [SERVER]: Indexing complete
+-------- Initializing Call Graph --------
+Processing File: Main.java
+Processing File: CWE568_Finalize_Without_Super__empty_01_bad.java
+Processing File: Main.java
+Processing File: ServletMain.java
+Processing File: ServletMain.java
+Processing File: CWE568_Finalize_Without_Super__empty_01_good1.java
+Processing File: CWE568_Finalize_Without_Super__from_console_01_good1.java
+Processing File: CWE568_Finalize_Without_Super__from_console_01_bad.java
+2020-02-03 16:24:16 PST [SERVER]: Constructing Class Graph
+-------- Initializing Class Dependencies --------
+-------- Optimizing Class Dependencies --------
+processing methods 1 of 10
+processing methods 2 of 10
+processing methods 3 of 10
+processing methods 4 of 10
+processing methods 5 of 10
+processing methods 6 of 10
+processing methods 7 of 10
+processing methods 8 of 10
+processing methods 9 of 10
+processing methods 10 of 10
+2020-02-03 16:24:27 PST [SERVER]: Class Graph Construction Complete
+2020-02-03 16:24:27 PST [SERVER]: Preparing for Call Graph Construction
+-------- Processing data flow information --------
+2020-02-03 16:24:27 PST [SERVER]: Preparation Phase Complete
+2020-02-03 16:24:27 PST [SERVER]: Constructing Call Graph
+-------- Constructing an Optimized Call Graph --------
+processing methods 1 of 10
+processing methods 2 of 10
+processing methods 3 of 10
+processing methods 4 of 10
+processing methods 5 of 10
+processing methods 6 of 10
+processing methods 7 of 10
+processing methods 8 of 10
+processing methods 9 of 10
+processing methods 10 of 10
+2020-02-03 16:24:27 PST [SERVER]: Call Graph Construction Complete
+
+
+
+__________CallGraph__________
+
+caller: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::main::65::2134::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE1::2203::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE2::2326::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE3::2449::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE4::2572::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE5::2695::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE6::2818::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE7::2941::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE8::3064::119::41::3268::Main::static
+	callee: /workspace/source/project/antbuild/testcases/CWE568_Finalize_Without_Super/Main.java::runTestCWE9::3187::119::41::3268::Main::static
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_good1.java::good1::2313::429::255::2987::CWE568_Finalize_Without_Super__empty_01_good1::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_good1.java::printMessage::849::90::362::1151::HelperClass::nonstatic
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_good1.java::good::2233::68::255::2987::CWE568_Finalize_Without_Super__empty_01_good1::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_good1.java::good1::2313::429::255::2987::CWE568_Finalize_Without_Super__empty_01_good1::nonstatic
+
+caller: /workspace/source/project/Main.java::main::104::2134::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE1::2242::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE2::2365::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE3::2488::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE4::2611::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE5::2734::434::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE6::3172::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE7::3295::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE8::3418::119::80::3583::Main::static
+	callee: /workspace/source/project/Main.java::runTestCWE9::3541::119::80::3583::Main::static
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_bad.java::bad::1686::363::227::2326::CWE568_Finalize_Without_Super__empty_01_bad::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_bad.java::printMessage::818::90::331::1131::HelperClass::nonstatic
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_good1.java::finalize::1593::621::1525::696::GoodClass::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__empty_01_good1.java::finalize::959::547::362::1151::HelperClass::nonstatic
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_good1.java::good1::2320::429::255::2994::CWE568_Finalize_Without_Super__from_console_01_good1::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_good1.java::printMessage::856::90::369::1151::HelperClass::nonstatic
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_good1.java::finalize::1600::621::1532::696::GoodClass::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_good1.java::finalize::966::547::369::1151::HelperClass::nonstatic
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_good1.java::good::2240::68::255::2994::CWE568_Finalize_Without_Super__from_console_01_good1::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_good1.java::good1::2320::429::255::2994::CWE568_Finalize_Without_Super__from_console_01_good1::nonstatic
+
+caller: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_bad.java::bad::1850::363::262::2455::CWE568_Finalize_Without_Super__from_console_01_bad::nonstatic
+	callee: /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_bad.java::printMessage::860::90::373::1131::HelperClass::nonstatic
+
+
+After CTA old: 26 new: 26
+CTA call graph size: 26
+execution time: 14.0s
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function HelperClass::HelperClass, Function 1 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::HelperClass::HelperClass]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::HelperClass::HelperClass
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 33a01569e8a6afdaed8ca801332f935b79963193 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__from_console_01_bad::main, Function 2 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::CWE568_Finalize_Without_Super__from_console_01_bad::main]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::CWE568_Finalize_Without_Super__from_console_01_bad::main
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 8efabee29984e00bd8ee4d69591b8c7cdff6a8d6 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function BadClass::finalize, Function 3 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::BadClass::finalize]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::BadClass::finalize
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for fdff26d66315b17c9637011b17daa7c2cebe2d2b on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE1, Function 4 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE1]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE1
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 9f8f5bdefb8af356b0990184b7e08ed1562b603e on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE5, Function 5 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE5]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE5
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 61b3ebdca2434522e54aa532498575e6da82d934 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function HelperClass::HelperClass, Function 6 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::HelperClass::HelperClass]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::HelperClass::HelperClass
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for e7fd64eac6aead1ab8e73f01faccc51faa8e015b on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__empty_01_good1::good, Function 7 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::HelperClass::printMessage, Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::CWE568_Finalize_Without_Super__empty_01_good1::good1, Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::CWE568_Finalize_Without_Super__empty_01_good1::good]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::HelperClass::printMessage
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 167309790cb9956601688462d0306762b37c211c on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::CWE568_Finalize_Without_Super__empty_01_good1::good1
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 762ac7c82457bfc2a844e6a73789e258523bf52f on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::CWE568_Finalize_Without_Super__empty_01_good1::good
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 83b874704abd966a6c7765eb51d04c9bba1d49fd on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function HelperClass::finalize, Function 8 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::HelperClass::finalize]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::HelperClass::finalize
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.CallGraphUtils.getHashCodeOfMethod(CallGraphUtils.java:516)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processSuperMethodInvocation(SummaryGraph.java:1810)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:509)
+	at org.eclipse.jdt.core.dom.SuperMethodInvocation.accept0(SuperMethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-03 16:24:27 PST [SERVER]: Exception thrown while creating summary for finalize
+2020-02-03 16:24:27 PST [SERVER]: null
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function GoodClass::finalize, Function 9 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::HelperClass::finalize, Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::GoodClass::finalize]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::HelperClass::finalize
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.CallGraphUtils.getHashCodeOfMethod(CallGraphUtils.java:516)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processSuperMethodInvocation(SummaryGraph.java:1810)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:509)
+	at org.eclipse.jdt.core.dom.SuperMethodInvocation.accept0(SuperMethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-03 16:24:27 PST [SERVER]: Exception thrown while creating summary for finalize
+2020-02-03 16:24:27 PST [SERVER]: null
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::GoodClass::finalize
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for cf02aecb1eebd754c8b540be189e1c9f49a4b971 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGet, Function 10 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGet]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGet
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 87b0ba7169c355410b61a8b174c61240e9dcc6ed on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE2, Function 11 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE2]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE2
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 83fa81e599e0efbf15fe62e13e46cec9f9cdaf1a on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE4, Function 12 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE4]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE4
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 061f6589b51c5090b9f7c9dc7bf140f4ee5233ae on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function GoodClass::finalize, Function 13 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::HelperClass::finalize, Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::GoodClass::finalize]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::HelperClass::finalize
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.CallGraphUtils.getHashCodeOfMethod(CallGraphUtils.java:516)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processSuperMethodInvocation(SummaryGraph.java:1810)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:509)
+	at org.eclipse.jdt.core.dom.SuperMethodInvocation.accept0(SuperMethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-03 16:24:27 PST [SERVER]: Exception thrown while creating summary for finalize
+2020-02-03 16:24:27 PST [SERVER]: null
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::GoodClass::finalize
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 9ec11874f06aaa21a2a906748b63b1f0863d3c91 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE3, Function 14 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE3]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE3
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for ef8a62fe5191c9001e7895c3b940547f5d96e8bd on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGet, Function 15 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGet]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGet
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 772bfbdfaf02f022ee91ef01f36f51f88259ba3e on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE1, Function 16 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE1]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE1
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 1aea8d072c9610ff5c101aa3f76a4e17826c6ec6 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function Main::main, Function 17 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /Main.java::Main::runTestCWE1, Single CG Node: /Main.java::Main::runTestCWE2, Single CG Node: /Main.java::Main::runTestCWE3, Single CG Node: /Main.java::Main::runTestCWE4, Single CG Node: /Main.java::Main::runTestCWE5, Single CG Node: /Main.java::Main::runTestCWE6, Single CG Node: /Main.java::Main::runTestCWE7, Single CG Node: /Main.java::Main::runTestCWE8, Single CG Node: /Main.java::Main::runTestCWE9, Single CG Node: /Main.java::Main::main]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE1
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for de72aa96ab2be90c4b1c811535edd67c48cdf8fb on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE2
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 27ce72e63ab282b433e1c4f0907159c4e3b16ba5 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE3
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 8bd97c468fc563822c8313455fd017a00438783a on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE4
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 14f3e2144e031685852aa6cdf20154646cba41d5 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE5
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 377236ac9346fef3f52d3a9e5cefe46695afe222 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE6
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 9c9b4fcde12ae9de22df572bb071e14548c57db8 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE7
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 72ef10d226bd2fa32eeefc2539003e4ef1cf3666 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE8
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for adf7b6f925230916b962c20814467fc6ef594481 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE9
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for b240866df20208c9858efd2b249b150e0debcc59 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::main
+Error creating summary for main
+2020-02-03 16:24:27 PST [SERVER]: Error creating summary for main
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE2, Function 18 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE2]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE2
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 489f6f13bd671ec1db21f6e19c3e8128289f735d on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE8, Function 19 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE8]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE8
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for d3bb9ecfc2f90a6aa3fe802d8a8c1c0a414f61df on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE6, Function 20 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE6]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE6
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 4590be80bc40be2dcd5e040fe597e58e41278a5e on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE8, Function 21 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE8]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE8
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 35523d25871a237ec98f13d6820f3902b7358cca on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function Main::main, Function 22 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /Main.java::Main::runTestCWE1, Single CG Node: /Main.java::Main::runTestCWE2, Single CG Node: /Main.java::Main::runTestCWE3, Single CG Node: /Main.java::Main::runTestCWE4, Single CG Node: /Main.java::Main::runTestCWE5, Single CG Node: /Main.java::Main::runTestCWE6, Single CG Node: /Main.java::Main::runTestCWE7, Single CG Node: /Main.java::Main::runTestCWE8, Single CG Node: /Main.java::Main::runTestCWE9, Single CG Node: /Main.java::Main::main]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE1
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 5192496928202ecfa6b6afaa4a3830732edcb1fc on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE2
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for f1e40ca2c7e749dd55a792f0f3b4b771bfb9cf78 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE3
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 923a3bf07cc2f532f366940d780fb1bcd353520f on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE4
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 77f2ea44851e69e3c6fde3d25a3344f573ac0471 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE5
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for e4716b2c8bcd0386635402e1fe93c24b2f9793ea on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE6
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 1def539c87748a6c01d93279dec563d3928d96bd on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE7
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for fd17c3cadd108ab3429b7edef7f6c0601b6c185d on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE8
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for b280bd455f5b3d0a7fbb9844c9ab804d94cebf63 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::runTestCWE9
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for f9cf2e13034cdbd57179a284ca092775c42d1e5b on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /Main.java::Main::main
+Error creating summary for main
+2020-02-03 16:24:27 PST [SERVER]: Error creating summary for main
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE4, Function 23 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE4]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE4
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 0e197448d1481695135465d88d587e1ed56f8a0e on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doPost, Function 24 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doPost]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doPost
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 1408ecb8d74ff5ee5d868bac1f3baf5044a93ffc on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doPost, Function 25 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doPost]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doPost
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for c716d59ef1864d681dc2cdd97e7c9b066f0ad0ed on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE3, Function 26 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE3]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE3
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 4be79a79aa522f0371d00323eca4e058f958faf4 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function HelperClass::HelperClass, Function 27 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::HelperClass::HelperClass]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::HelperClass::HelperClass
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 303afbd39f4d2b8404e35ba6c49562360a88e1b5 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE6, Function 28 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE6]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE6
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 749e39ec71bd856d63c3df9e51d3417224ad7fc9 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE9, Function 29 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE9]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE9
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 3e6d9fdcbd93ae9a62927c4ddc26e90f784d7f83 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__from_console_01_good1::main, Function 30 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::CWE568_Finalize_Without_Super__from_console_01_good1::main]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::CWE568_Finalize_Without_Super__from_console_01_good1::main
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 811dbb757e7d5681a3ec99dcf9164165064920f6 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function HelperClass::HelperClass, Function 31 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::HelperClass::HelperClass]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::HelperClass::HelperClass
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for b254ae8a062a03034232e34dc6f1a3c80018bcf1 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE7, Function 32 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE7]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE7
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for ab51104bd9c6383425c9dbed7fe0f9e67da01771 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__empty_01_bad::main, Function 33 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::CWE568_Finalize_Without_Super__empty_01_bad::main]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::CWE568_Finalize_Without_Super__empty_01_bad::main
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 670b184ffa845bdb72f23dce4174c90029898bb4 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__from_console_01_good1::good, Function 34 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::HelperClass::printMessage, Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::CWE568_Finalize_Without_Super__from_console_01_good1::good1, Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::CWE568_Finalize_Without_Super__from_console_01_good1::good]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::HelperClass::printMessage
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for b5198c268145b669fefdc480f9855adf3d629ed1 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::CWE568_Finalize_Without_Super__from_console_01_good1::good1
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 3851c346da09a51335d2785dda026ed27855f966 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_good1.java::CWE568_Finalize_Without_Super__from_console_01_good1::good
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 29060c590ee8aa46ef1548dbaee0b8d3a2d1c535 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__from_console_01_bad::bad, Function 35 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::HelperClass::printMessage, Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::CWE568_Finalize_Without_Super__from_console_01_bad::bad]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::HelperClass::printMessage
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 2b65342892bfa4bfd0ba343076032a543c7715b2 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__from_console_01_bad.java::CWE568_Finalize_Without_Super__from_console_01_bad::bad
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for c19572ebf6f6ea04b48f1149b4e368a7ac108fe0 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE5, Function 36 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE5]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE5
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 00f7b8b8fda8e1b468d5c496192c7ea49514e981 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__empty_01_good1::main, Function 37 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::CWE568_Finalize_Without_Super__empty_01_good1::main]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_good1.java::CWE568_Finalize_Without_Super__empty_01_good1::main
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 867cbcb193f812e392f763b1b8d1772c0b421f71 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function HelperClass::finalize, Function 38 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::HelperClass::finalize]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::HelperClass::finalize
+java.lang.NullPointerException
+	at com.openrefactory.core.java.util.CallGraphUtils.getHashCodeOfMethod(CallGraphUtils.java:516)
+	at com.openrefactory.core.java.pointeranalysis.SummaryGraph.processSuperMethodInvocation(SummaryGraph.java:1810)
+	at com.openrefactory.core.java.pointeranalysis.PointsToGraphProcessor.visit(PointsToGraphProcessor.java:509)
+	at org.eclipse.jdt.core.dom.SuperMethodInvocation.accept0(SuperMethodInvocation.java:220)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2815)
+	at com.openrefactory.core.java.pointeranalysis.PointsTo.update(PointsTo.java:47)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleNode.processPointsToGraph(SingleNode.java:134)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockNode.processPointsToGraph(BlockNode.java:57)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createSummary(SummaryAnalysis.java:314)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.SingleCGNode.processPointsToGraph(SingleCGNode.java:59)
+	at com.openrefactory.core.java.flowAnalyzers.structuralAnalysis.BlockCGNode.processPointsToGraph(BlockCGNode.java:55)
+	at com.openrefactory.core.java.pointeranalysis.SummaryAnalysis.createFunctionSummaries(SummaryAnalysis.java:266)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.buildAndProcessCallGraph(RefactoringPassCommand.java:249)
+	at com.openrefactory.internal.protocol.commands.RefactoringPassCommand$RefactoringPass.run(RefactoringPassCommand.java:197)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-03 16:24:27 PST [SERVER]: Exception thrown while creating summary for finalize
+2020-02-03 16:24:27 PST [SERVER]: null
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function CWE568_Finalize_Without_Super__empty_01_bad::bad, Function 39 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::HelperClass::printMessage, Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::CWE568_Finalize_Without_Super__empty_01_bad::bad]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::HelperClass::printMessage
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 81b2a55a6648c29e4bb64b82e713917d2f0ee669 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::CWE568_Finalize_Without_Super__empty_01_bad::bad
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 702f89a97a108f1f3684d064e6906daec0eee5f0 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE9, Function 40 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE9]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE9
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 1c0fcf31df24085a9bdb8460564866d681a90ea7 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function ServletMain::doGetCWE7, Function 41 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /ServletMain.java::ServletMain::doGetCWE7]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /ServletMain.java::ServletMain::doGetCWE7
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 02986597b8d3eae94ae6e3bb4b3edb429b8eb258 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Processing Points To summary for the root function BadClass::finalize, Function 42 of 42
+2020-02-03 16:24:27 PST [SERVER]: Processing summary for a block of CG Nodes [Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::BadClass::finalize]
+2020-02-03 16:24:27 PST [SERVER]: Processing Points to Summary for: Single CG Node: /CWE568_Finalize_Without_Super__empty_01_bad.java::BadClass::finalize
+2020-02-03 16:24:27 PST [SERVER]: First summary entry for 28b76bd6a4a2df1a88d59978857af94ec035bf13 on disk.
+2020-02-03 16:24:27 PST [SERVER]: Points-to-analysis time: 0.0s
+2020-02-03 16:24:27 PST [SERVER]: Finished calculating call graph and points to information...
+2020-02-03 16:24:27 PST [SERVER]: Running configuration related fixers...
+2020-02-03 16:24:27 PST [SERVER]: Finished running configuration related fixers...
+2020-02-03 16:24:27 PST [SERVER]: Running Fixers...
+2020-02-03 16:24:27 PST [SERVER]: Analyzing Main.java. File 1 of 8
+2020-02-03 16:24:27 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:27 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:27 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: No new Fixes. Total: 0
+2020-02-03 16:24:28 PST [SERVER]: Analyzing ServletMain.java. File 2 of 8
+2020-02-03 16:24:28 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: No new Fixes. Total: 0
+2020-02-03 16:24:28 PST [SERVER]: Analyzing CWE568_Finalize_Without_Super__from_console_01_good1.java. File 3 of 8
+2020-02-03 16:24:28 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: No new Fixes. Total: 0
+2020-02-03 16:24:28 PST [SERVER]: Analyzing CWE568_Finalize_Without_Super__empty_01_bad.java. File 4 of 8
+2020-02-03 16:24:28 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Added 1 Fixes. Total: 1
+2020-02-03 16:24:28 PST [SERVER]: Analyzing CWE568_Finalize_Without_Super__empty_01_good1.java. File 5 of 8
+2020-02-03 16:24:28 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: No new Fixes. Total: 1
+2020-02-03 16:24:28 PST [SERVER]: Analyzing CWE568_Finalize_Without_Super__from_console_01_bad.java. File 6 of 8
+2020-02-03 16:24:28 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:28 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:28 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Added 1 Fixes. Total: 2
+2020-02-03 16:24:29 PST [SERVER]: Analyzing Main.java. File 7 of 8
+2020-02-03 16:24:29 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: No new Fixes. Total: 2
+2020-02-03 16:24:29 PST [SERVER]: Analyzing ServletMain.java. File 8 of 8
+2020-02-03 16:24:29 PST [SERVER]: Beginning FixZeroDivisionRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed FixZeroDivisionRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning GPPRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed GPPRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning AMBRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed AMBRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning CSMRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed CSMRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning LimitFieldAccessRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed LimitFieldAccessRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning LUORefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed LUORefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RRGRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RRGRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RUSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RUSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning SPCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed SPCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning CRRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed CRRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning AQSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed AQSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RMCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RMCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RSMFRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RSMFRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning BRVRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed BRVRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning MDSRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed MDSRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning UPRMRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed UPRMRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning PITCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed PITCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning USARefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed USARefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning RCSCRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed RCSCRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning UPDIRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed UPDIRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning PPESRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed PPESRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ACCRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ACCRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ADPRRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ADPRRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning ACPLRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed ACPLRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: Beginning REWIRefactoring...
+2020-02-03 16:24:29 PST [SERVER]: Completed REWIRefactoring.
+2020-02-03 16:24:29 PST [SERVER]: No new Fixes. Total: 2
+2020-02-03 16:24:29 PST [SERVER]: iCR Fixing complete
+2020-02-03 16:24:29 PST [SERVER]: Shutting down daemon...
+2020-02-03 16:24:29 PST [SERVER]: Server closed: true

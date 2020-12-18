@@ -1,0 +1,15 @@
+--- /workspace/source/project/CWE476_NULL_Pointer_Dereference__String_67a.java
++++ /workspace/source/project/CWE476_NULL_Pointer_Dereference__String_67a.java
+@@ -23,7 +23,11 @@
+ {
+     static class Container
+     {
+-        public String containerOne;
++        private String containerOne;
++
++		public String getContainerOne() {
++			return containerOne;
++		}
+     }
+ 
+     public void bad() throws Throwable

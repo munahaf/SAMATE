@@ -1,0 +1,15 @@
+--- /workspace/source/project/CWE476_NULL_Pointer_Dereference__StringBuilder_67a.java
++++ /workspace/source/project/CWE476_NULL_Pointer_Dereference__StringBuilder_67a.java
+@@ -23,7 +23,11 @@
+ {
+     static class Container
+     {
+-        public StringBuilder containerOne;
++        private StringBuilder containerOne;
++
++		public StringBuilder getContainerOne() {
++			return containerOne;
++		}
+     }
+ 
+     public void bad() throws Throwable

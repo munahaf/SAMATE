@@ -1,0 +1,14 @@
+--- /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java
++++ /workspace/source/project/CWE252_Unchecked_Return_Value__FileInputStream_08.java
+@@ -49,7 +49,10 @@
+                 int bytesToRead = 1024;
+                 byte[] byteArray = new byte[bytesToRead];
+                 streamFileInput = new FileInputStream("c:\\file.txt");
+-                streamFileInput.read(byteArray);
++                int readResult = streamFileInput.read(byteArray);
++				// OR Warning: Handle Error Code
++				if (readResult == -1) {
++				}
+                 /* FLAW: Do not check the return value of read() */
+                 IO.writeLine(new String(byteArray, "UTF-8"));
+             }

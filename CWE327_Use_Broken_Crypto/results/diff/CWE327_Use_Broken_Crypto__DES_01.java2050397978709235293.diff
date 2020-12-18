@@ -1,0 +1,11 @@
+--- /workspace/source/project/CWE327_Use_Broken_Crypto__DES_01.java
++++ /workspace/source/project/CWE327_Use_Broken_Crypto__DES_01.java
+@@ -38,7 +38,7 @@
+         byte[] byteKey = secretKey.getEncoded();
+ 
+         /* FLAW: Use a weak crypto algorithm, DES */
+-        SecretKeySpec secretKeySpec = new SecretKeySpec(byteKey, "DES");
++        SecretKeySpec secretKeySpec = new SecretKeySpec(byteKey, "AES");
+ 
+         Cipher desCipher = Cipher.getInstance("DES");
+         desCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);

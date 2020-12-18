@@ -1,0 +1,24 @@
+--- /workspace/source/project/CWE253_Incorrect_Check_of_Function_Return_Value__FileInputStream_01.java
++++ /workspace/source/project/CWE253_Incorrect_Check_of_Function_Return_Value__FileInputStream_01.java
+@@ -37,8 +37,9 @@
+ 
+             fis = new FileInputStream("c:\\file.txt");
+ 
+-            /* FLAW: Incorrect check on result of read().  Should check if the return value is -1 or is less than bytesToRead. */
+-            if (fis.read(byteArray) == 0)
++            int readResult = fis.read(byteArray);
++			/* FLAW: Incorrect check on result of read().  Should check if the return value is -1 or is less than bytesToRead. */
++            if (readResult == 0)
+             {
+                 IO.writeLine("Error reading file.");
+             }
+@@ -46,6 +47,9 @@
+             {
+                 IO.writeLine(new String(byteArray, "UTF-8"));
+             }
++			// OR Warning: Handle Error Code
++			if (readResult == -1) {
++			}
+         }
+         catch (FileNotFoundException exceptFileNotFound)
+         {

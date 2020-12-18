@@ -1,0 +1,20 @@
+--- /workspace/source/project/CWE338_Weak_PRNG__util_04.java
++++ /workspace/source/project/CWE338_Weak_PRNG__util_04.java
+@@ -19,8 +19,6 @@
+ 
+ import java.security.SecureRandom;
+ 
+-import java.util.Random;
+-
+ public class CWE338_Weak_PRNG__util_04 extends AbstractTestCase
+ {
+     /* The two variables below are declared "final", so a tool should
+@@ -35,7 +33,7 @@
+         if (PRIVATE_STATIC_FINAL_TRUE)
+         {
+             /* FLAW: java.util.Random() is considered a weak PRNG */
+-            Random random = new Random();
++            SecureRandom random = new SecureRandom();
+             IO.writeLine("" + random.nextInt());
+         }
+     }

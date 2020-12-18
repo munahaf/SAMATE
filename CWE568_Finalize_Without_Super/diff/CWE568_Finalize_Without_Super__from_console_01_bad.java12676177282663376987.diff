@@ -1,0 +1,17 @@
+--- /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_bad.java
++++ /workspace/source/project/CWE568_Finalize_Without_Super__from_console_01_bad.java
+@@ -53,9 +53,13 @@
+     { 
+         protected void finalize() 
+         {
+-            /* FLAW: missing super.finalize in this overridden method will cause a memory leak 
++            /* ********OpenRefactory Warning********
++			 Overriding the finalize method is problematic. Avoid if possible
++			*/
++			/* FLAW: missing super.finalize in this overridden method will cause a memory leak 
+              * when the GC attempts to perform cleanup. */
+             IO.writeLine("finalizing BadClass");
++			super.finalize();
+         }
+     }
+     

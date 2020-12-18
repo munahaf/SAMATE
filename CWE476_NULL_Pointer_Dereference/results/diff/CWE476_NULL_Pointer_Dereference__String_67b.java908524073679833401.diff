@@ -1,0 +1,29 @@
+--- /workspace/source/project/CWE476_NULL_Pointer_Dereference__String_67b.java
++++ /workspace/source/project/CWE476_NULL_Pointer_Dereference__String_67b.java
+@@ -23,7 +23,7 @@
+ {
+     public void badSink(CWE476_NULL_Pointer_Dereference__String_67a.Container dataContainer ) throws Throwable
+     {
+-        String data = dataContainer.containerOne;
++        String data = dataContainer.getContainerOne();
+ 
+         /* POTENTIAL FLAW: null dereference will occur if data is null */
+         IO.writeLine("" + data.length());
+@@ -33,7 +33,7 @@
+     /* goodG2B() - use goodsource and badsink */
+     public void goodG2BSink(CWE476_NULL_Pointer_Dereference__String_67a.Container dataContainer ) throws Throwable
+     {
+-        String data = dataContainer.containerOne;
++        String data = dataContainer.getContainerOne();
+ 
+         /* POTENTIAL FLAW: null dereference will occur if data is null */
+         IO.writeLine("" + data.length());
+@@ -43,7 +43,7 @@
+     /* goodB2G() - use badsource and goodsink */
+     public void goodB2GSink(CWE476_NULL_Pointer_Dereference__String_67a.Container dataContainer ) throws Throwable
+     {
+-        String data = dataContainer.containerOne;
++        String data = dataContainer.getContainerOne();
+ 
+         /* FIX: validate that data is non-null */
+         if (data != null)
